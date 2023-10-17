@@ -2,6 +2,14 @@
 ##### <div align='center'>English | [中文](README_CN.md)</div>
 > Customize your commands and parameters through markdown, then graphical parameter input will be displayed. You can execute commands through graphical buttons, the command results will be displayed in the terminal in the Joplin interface.
 
+## Usage
+
+The default working path is the your home path, if you want to change it, you can do so by setting the "Set work directory" option. Setting the working path to the jopin synchronization path, you can keep commands available while synchronizing notes without the need for the copy tools.
+
+Use the "Insert Command" button to add your custom commands, reference your parameters like "**${arg1}**".
+
+![example.gif](example.gif)
+
 ## Implemented functions
 
 #### joplin.views.menuItems
@@ -21,15 +29,6 @@
 > the up/down key is used to view history commands
 
 &#x2705; Multiple labels with button names
-
-## Usage
-
-The default working path is the your home path, if you want to change it, you can do so by setting the "Set work directory" option. Setting the working path to the jopin synchronization path, you can keep commands available while synchronizing notes without the need for the copy tools.
-
-Use the "Insert Command" button to add your custom commands, reference your parameters like "**${arg1}**".
-
-![example.gif](example.gif)
-
 
 ## Notice
 &#x2757; Check security before clicking on imported notes from others.
