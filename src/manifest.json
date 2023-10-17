@@ -1,0 +1,13 @@
+{
+	"manifest_version": 1,
+	"id": "joplin-plugin-insert-command-exec",
+	"app_min_version": "2.8",
+	"version": "1.0.0",
+	"name": "Insert Command to Exec",
+	"description": "Customize your commands and parameters through markdown, then graphical parameter input will be displayed. You can execute commands through graphical buttons, the command results will be displayed in the terminal in the Joplin interface.",
+	"author": "gateswizard",
+	"homepage_url": "https://github.com/gateswizard/joplin-plugin-insert-command-exec",
+	"repository_url": "https://github.com/gateswizard/joplin-plugin-insert-command-exec",
+	"keywords": [],
+	"categories": []
+}
