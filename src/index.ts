@@ -49,19 +49,19 @@ async function registerMyWorkDirectory() {
 
     await joplin.commands.register({
         name: 'setWorkDirectory',
-        label: 'Set work dircetory',
+        label: 'Set work directory',
         execute: async () => {
             const workpath = await workdir();
             await dialogs.setHtml(handlePath, `
-            <p>Set work dircetory</p>
-            <form name="work_dircetory">
+            <p>Set work directory</p>
+            <form name="work_directory">
             <input type="text" name="path" value="${workpath}" style="width: 192px;"/>
             </form>
             `);
 
             const resultPath = await joplin.views.dialogs.open(handlePath);
             if (resultPath.id === "ok"){
-                const setdir = resultPath.formData.work_dircetory['path'];
+                const setdir = resultPath.formData.work_directory['path'];
                 if (fs.existsSync(setdir)){
                     await joplin.settings.setValue('myWorkDirectory',setdir);
                 }else{
