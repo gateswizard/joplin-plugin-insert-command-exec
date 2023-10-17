@@ -18,15 +18,15 @@
 > the default is powershell for windows and zsh for other platforms
 
 &#x2705; Implement key: ctrl+c、up、down、left、right
-> the up/down key is used to view history command
+> the up/down key is used to view history commands
 
 &#x2705; Multiple labels with button names
 
 ## Usage
 
-The default working path is the home path, if you want to change it, you can do so by setting the "Set work directory" option. Setting the working path to the jopin synchronization path, you can keep commands available while synchronizing notes without the need for the copy tools.
+The default working path is the your home path, if you want to change it, you can do so by setting the "Set work directory" option. Setting the working path to the jopin synchronization path, you can keep commands available while synchronizing notes without the need for the copy tools.
 
-Use the "Insert Command" button to add your custom command, refer to your parameter like "**${arg1}**".
+Use the "Insert Command" button to add your custom commands, reference your parameters like "**${arg1}**".
 
 ![example.gif](example.gif)
 
@@ -36,7 +36,7 @@ Use the "Insert Command" button to add your custom command, refer to your parame
 
 &#x2757; Make sure the syncing account is secure and the team members are trustworthy when syncing notes or tools.
 
-## Reference:
+## Reference
 https://joplinapp.org/api/get_started/plugins/
 
 https://joplinapp.org/api/references/plugin_api/classes/joplin.html
