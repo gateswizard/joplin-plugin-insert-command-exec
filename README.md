@@ -4,16 +4,16 @@
 
 ## Implemented functions
 
-### joplin.views.menuItems
+#### joplin.views.menuItems
 &#x2705; Add "Set work directory" option
 
-### joplin.views.toolbarButtons
+#### joplin.views.toolbarButtons
 &#x2705; Add "Open Panel" and "Close Panel" button
 
-### joplin.views.toolbarButtons
+#### joplin.views.toolbarButtons
 &#x2705; Add "Insert Command" button
 
-### joplin.views.panels
+#### joplin.views.panels
 &#x2705; Interactive shell
 > the default is powershell for windows and zsh for other platforms
 
